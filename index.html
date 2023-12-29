@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    <title>Aman Bind</title>
+</head>
+<body>
+   <div class="wrapper">
+    <div class="header">
+            <div class="round-pfp">
+                <h1>A</h1>
+
+            </div>
+            <div class="header-name">
+                <h1>@aman.bind898</h1>
+
+            </div>
+        <p>Hello ! 👋 glad to see you</p>
+    </div>
+    <div class="linkBox">
+        <div class="iconbox">
+            <img src="https://ugc.production.linktr.ee/19e5CEXFRoqrQ21VTdXS_1000058594.jpg?io=true&size=thumbnail-stack-v1_0" alt="" srcset="">
+        </div>
+        <div class="linktext">
+            <a href="https://amanbind898.github.io/">Portfolio</a>
+        </div>
+        <div class="dot-menu">
+            <img src="three-dots-svgrepo-com.svg" alt="" srcset="">
+        </div>
+    </div>
+    <div class="linkBox">
+        <div class="iconbox">
+           <img src="https://img.freepik.com/premium-vector/square-linkedin-logo-isolated-white-background_469489-892.jpg" alt="" srcset="">
+        </div>
+        <div class="linktext">
+            <a href="https://www.linkedin.com/in/aman-bind-306152289">LinkedIn</a>
+        </div>
+        <div class="dot-menu dispnone">
+            <img src="three-dots-svgrepo-com.svg" alt="" srcset="">
+        </div>
+    </div>
+    <div class="linkBox">
+        <div class="iconbox">
+            <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="" srcset="">
+        </div>
+        <div class="linktext">
+            <a href="https://github.com/amanbind898">GitHub</a>
+        </div>
+        <div class="dot-menu">
+            <img src="three-dots-svgrepo-com.svg" alt="" srcset="">
+        </div>
+    </div>
+    <div class="linkBox">
+        <div class="iconbox">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAGz6y5tt2YWB8qSWslj3hPGTC7krp0kmrgg&usqp=CAU" alt="" srcset="">
+        </div>
+        <div class="linktext">
+            <a href="comingsoon.html">Art works</a>
+        </div>
+        <div class="dot-menu">
+            <img src="three-dots-svgrepo-com.svg" alt="" srcset="">
+        </div>
+    </div>
+  
+    </div>
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal" id="shareModal">
+        <div class="modal-content">
+            <div onclick="closeModal()">
+         <img src="https://cdn-icons-png.flaticon.com/512/51/51517.png" alt="" class="closebtn"> </div>
+            <h2>Share this link</h2>
+            <div class="share-options">
+                <div class="share-option" onclick="shareOnPlatform('Snapchat')">Share on Snapchat</div>
+                <div class="share-option" onclick="shareOnPlatform('Facebook')">Share on Facebook</div>
+                <div class="share-option" onclick="shareOnPlatform('LinkedIn')">Share on LinkedIn</div>
+                <div class="share-option" onclick="shareOnPlatform('X')">Share on X</div>
+                <div class="share-option" onclick="shareViaWhatsApp()">Share via WhatsApp</div>
+                <div class="share-option" onclick="shareViaMessenger()">Share via Messenger</div>
+                <div class="share-option" onclick="shareViaEmail()">Share via Email</div>
+            </div>
+            <div class="more-options" onclick="showMoreOptions()">More options</div>
+            <div class="link-container" id="linkContainer">
+                tr.ee/<span id="linkText">qHmfXLA5ED</span>
+                <button onclick="copyLink()">Copy</button>
+            </div>
+          
+        </div>
+    </div>
+   </div>
+   <script src="main.js"></script>
+</body>
+</html>
