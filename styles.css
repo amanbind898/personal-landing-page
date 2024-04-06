@@ -58,18 +58,22 @@ body {
     margin-bottom: 1rem;
 
 }
-.round-pfp{
+.round-pfp {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 10em;
     width: 10em;
-    background-color: rgb(115, 99, 79);
     margin: 2rem;
     border-radius: 50%;
     color: aliceblue;
+    background-color: rgb(115, 99, 79);
+    background-image: url('https://media.licdn.com/dms/image/D5603AQH_53dkq__Atg/profile-displayphoto-shrink_800_800/0/1710412388464?e=1717632000&v=beta&t=rbI0uolrQVgL4hX1G_WlcsrHq6osLsHreECBh2Z9RSI');
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image within the element */
 }
+
 .linkBox{
     display: flex;
     flex-direction: row;
